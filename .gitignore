@@ -1,0 +1,16 @@
+# KiCad backups and autosave
+*-backups/
+*.kicad_prl
+_autosave-*
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Caches
+fp-info-cache
+*.net
+
+# Output comment these out if you want fab files tracked
+gerbers/
+*.zip
+*.drl
