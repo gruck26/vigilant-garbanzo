@@ -13,4 +13,5 @@ fp-info-cache
 # Output comment these out if you want fab files tracked
 gerbers/
 *.zip
-*.drl
+*.drl.history/
+*.lck
