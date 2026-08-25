@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -424,27 +424,34 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "KiCad.kicad_sch",
-        "name": "Root",
-        "uuid": "f925c880-a970-445c-bf84-65df1815a707"
-      },
-      {
         "filename": "rpi_and_peripherals.kicad_sch",
         "name": "RPi and Peripherals",
         "uuid": "24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
       }
     ],
-    "used_designators": "U1-5,#PWR1-5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "f925c880-a970-445c-bf84-65df1815a707",
-      "Root"
-    ],
-    [
       "24850b4e-1ce6-41a1-b1f6-c45749a7c3af",
       "RPi and Peripherals"
+    ],
+    [
+      "abb2135b-3d91-4e02-83b2-05321ccf7d2b",
+      "pcm_1808"
+    ],
+    [
+      "6e6f54ae-c134-44a9-b312-648594db47df",
+      "pcm5102A"
+    ],
+    [
+      "482e9c29-4e2a-4660-9574-25cec0041a8a",
+      "AnalogFE"
+    ],
+    [
+      "5db09122-b5d9-4ae7-9448-db4e2d1486d8",
+      "AnalogBE"
     ]
   ],
   "text_variables": {},

@@ -2884,10 +2884,10 @@
 		)
 		(uuid "74373bcd-fa6e-46e6-ab83-738a4a418c60")
 	)
-	(text_box "TODO:\n1. Investigate settings on the DAC & ADC to verify they align with the schematic.\n2. Investigate the CAPM, CAPP, & the LDOO signals on the DAC.\n3. Look into the backend on the board currently being used by the system, is there one?\n4. Fill out schematics on the FE & BE. "
+	(text_box "TODO:\n1. Investigate settings on the DAC & ADC to verify they align with the schematic.\n2. Investigate the CAPM, CAPP, & the LDOO signals on the DAC.\n3. Look into the backend on the board currently being used by the system, is there one?\n4. Fill out schematics on the FE & BE. \n5. Need to fix RP2350A, find footprint of the devkit rather than the processor. "
 		(exclude_from_sim no)
 		(at 163.83 100.33 0)
-		(size 67.31 16.51)
+		(size 67.31 22.86)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
