@@ -730,7 +730,7 @@
 		(property "Reference" "U3"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "d83c81f2-8c22-423e-9182-522459b78451")
+			(uuid "0c70a8d7-1120-4b11-adf0-549e11e36102")
 			(effects
 				(font
 					(size 1 1)
@@ -741,7 +741,7 @@
 		(property "Value" "PCM5102A"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "854166d2-3521-4719-b260-68fc77c0f1f5")
+			(uuid "20455e0f-2b3f-4109-812e-ee2b2f322ca9")
 			(effects
 				(font
 					(size 1 1)
@@ -753,7 +753,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6850a963-f9d4-43ca-80a0-11507f33f894")
+			(uuid "ed09705a-c5ce-41ca-96c3-5e2d3666aeef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +764,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3d88842-27f1-4c44-893a-1a656a81cb0f")
+			(uuid "30528e1f-7cb0-44ea-a736-bd373b4d39f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d2443f23-6c56-402a-93c0-a25eba40c7cb")
+			(uuid "c0406874-4a8b-4245-8834-9927749a6132")
 			(effects
 				(font
 					(size 1 1)
@@ -1206,7 +1206,7 @@
 			(at 2.8194 -4.049999 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "edcd6a6f-e371-480d-a3bd-f95793681453")
+			(uuid "71d0f1af-c1be-4607-8354-1b6983791287")
 			(effects
 				(font
 					(size 1 1)
@@ -1218,7 +1218,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3826896e-4265-4e68-a08e-081416c552ca")
+			(uuid "90f84e3f-ede6-4e25-a246-e23a390a59ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7674796-ce37-4af2-9634-bf905b4b1b08")
+			(uuid "c87985bd-39e6-488f-b5f6-60d67e2e3f3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2364,7 @@
 		(property "Reference" "U2"
 			(at 0 -3.08 0)
 			(layer "F.SilkS")
-			(uuid "8764e704-0b9d-4c84-96a7-91aa9a6a8a47")
+			(uuid "72f33f87-06ff-4297-a04b-4709442b5495")
 			(effects
 				(font
 					(size 1 1)
@@ -2375,7 +2375,7 @@
 		(property "Value" "~"
 			(at -11.2 50.64 0)
 			(layer "F.Fab")
-			(uuid "1a104407-fa67-45dc-9eee-2ca115436c3d")
+			(uuid "076c46cc-1da1-41b6-a80e-20d0a720d571")
 			(effects
 				(font
 					(size 1 1)
@@ -2387,7 +2387,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2674b10e-ea4f-4922-9533-3c978b961e5b")
+			(uuid "7f60aed2-7eac-4289-aaec-ab4699f49e62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2398,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5d92137-e912-48ee-9681-510cfdff48f1")
+			(uuid "41abaa76-d917-4b07-aac3-4c1ccc470213")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,40 +2985,8 @@
 			(uuid "02fb68b6-402b-461f-9258-bb6342211e2e")
 		)
 		(group "pinheader1"
-			(uuid "49cd128b-6fc2-4d45-b582-1df6d2a49160")
-			(members "00ccd200-e6b3-4610-b0d6-4c5ea954d81c" "1a1af2ab-465a-4ff9-9341-0f876b15f142"
-				"2634d5bb-55f4-47e7-9350-3dadfc2cb96c" "288626c4-ef3d-4a74-bb2a-b6c23b455649"
-				"2cc8ccc7-0789-46e4-9a6a-9bf827bbce3d" "33d17476-3d62-4705-aa7a-ad5e778b03ea"
-				"43248298-7672-4b9c-95d0-bb69b2c0fa5f" "44666692-896f-456d-a90e-996a6bf35cec"
-				"4a04807e-6585-487f-a78c-3e2493b73b99" "57848a04-c68d-4f52-8d3d-7186d40341df"
-				"5c76ee25-f285-4a57-8ea7-e2aa88e6365d" "5f38b5c9-ad80-45a8-b410-2454857dd701"
-				"7d1aa833-41a2-4e44-bd3c-c38f49ade736" "909bde8e-b671-4927-89aa-1bf9d4b5e01d"
-				"99ca5174-1401-4b48-b773-ec8c90f3b037" "9b3da618-42fd-4037-88fa-19bb2351520b"
-				"a04d3b72-5986-4526-b94a-3ba7babf037d" "aaf9face-57b6-4ee5-af36-40a5af083c28"
-				"ab4e0663-f6f6-4f9b-b96c-34cd1a0770fd" "ac5e6998-c24d-4fb1-9e58-6cb4820bb0b0"
-				"aea9096b-28fb-440f-af06-5f6aa6f3e58e" "d87d4d3b-95d4-436d-8231-a08a800f1f71"
-				"d8a5fa89-277f-4db9-a13a-2fb0b9c81133" "dfd3e7c5-869b-4d5a-8240-d17c14c4a116"
-				"e5d3a65c-daf1-479a-a332-c0adde2a1fe0" "e60a7602-7798-4e02-9fb0-6b554c301188"
-				"fb396600-7f65-4ef9-8c2f-42a34e3ee189"
-			)
-		)
-		(group "pinheader1"
 			(uuid "55c6cec7-c2bd-4f4b-a6f8-bbf2225557f8")
-			(members "02fb68b6-402b-461f-9258-bb6342211e2e" "08207f5f-02ba-4122-91e9-d64f489d7ee6"
-				"0acd728c-f842-4804-938d-0e9d48491e96" "0f661b0d-1881-46f4-a724-4788039f235b"
-				"1a0d7dca-f7a8-425c-ba97-84c2eb0d7618" "421917c6-c743-46ca-a65f-071789ad0843"
-				"42240839-5894-4240-95e1-866a3721f103" "5cf693ed-3cc6-44b5-95c5-82dbffdfd05e"
-				"6b393731-9503-4ab6-b042-6168f9a4f3fe" "74ce6016-44e8-4943-909b-9e6806f9735f"
-				"7c6a2382-6ed0-4c89-ae4c-b179fabb2cd4" "8276d581-6a7a-4be1-8721-652e238bc368"
-				"8764e704-0b9d-4c84-96a7-91aa9a6a8a47" "8ca74c4f-8c06-4e07-8c4f-d456ac387b31"
-				"9114e8ad-d6d8-4f08-b90a-9dcf309d41c7" "9e9e7488-ac53-40f5-9b8b-c56e4944770f"
-				"a1bb398e-5d6e-4230-8f5b-8232f196d8a1" "a254d28c-fe91-4470-a221-3b8d41d33079"
-				"a2fb10e8-b282-4df3-899d-c34f4f51b487" "b391de77-bb8a-4a9e-a043-ee8d9e3d3f25"
-				"b408e7d3-4b57-4950-b430-ee82cfe2d61b" "bec161e0-ab17-4d14-bcf3-0169f1df1f8b"
-				"ced1a3d3-8527-41b1-a5e9-4202856057e8" "d523891c-f4d2-48bc-a38b-286eed18abd9"
-				"db385151-23b9-4344-b23b-058b8b4e58f7" "dd371af2-1791-4990-bb54-d714db2b276c"
-				"ea1648b2-fece-465b-ae3c-70575e179caa" "eaac6b43-a507-419b-a44d-7f9f2e33dabd"
-			)
+			(members "72f33f87-06ff-4297-a04b-4709442b5495")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x20_P2.54mm_Vertical.step"

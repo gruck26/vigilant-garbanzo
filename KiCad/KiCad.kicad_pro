@@ -673,7 +673,7 @@
         "uuid": "24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
       }
     ],
-    "used_designators": "AnalogFE1,U1-5,#PWR1-14,C1-4,C6,R1-2,AnalogBE1",
+    "used_designators": "U6-8,#PWR16-24,D1,R1-10,C6-11",
     "variants": []
   },
   "sheets": [

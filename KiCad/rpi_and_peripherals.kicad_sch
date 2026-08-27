@@ -2064,10 +2064,10 @@
 		)
 		(uuid "74373bcd-fa6e-46e6-ab83-738a4a418c60")
 	)
-	(text_box "TODO:\n1. Investigate settings on the DAC & ADC to verify they align with the schematic.\n2. Investigate the CAPM, CAPP, & the LDOO signals on the DAC.\n3. Look into the backend on the board currently being used by the system, is there one?\n4. Fill out schematics on the FE & BE. \n5. Need to fix RP2350A, find footprint of the devkit rather than the processor. "
+	(text_box "TODO:\n1. Investigate settings on the DAC & ADC to verify they align with the schematic.\n2. Investigate the CAPM, CAPP, & the LDOO signals on the DAC.\n3. Look into the backend on the board currently being used by the system, is there one?\n4. Fill out schematics on BE and verify the FE schem with Luke.\n5. Need to fix RP2350A, find footprint of the devkit rather than the processor. "
 		(exclude_from_sim no)
 		(at 163.83 100.33 0)
-		(size 67.31 22.86)
+		(size 67.31 20.3053)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2123,6 +2123,12 @@
 		(uuid "201666fa-5e21-413c-9f24-17a4dd1bce40")
 	)
 	(junction
+		(at 107.95 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26426c88-b28a-4fa3-8fa6-42e1596214fe")
+	)
+	(junction
 		(at 146.05 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2163,12 +2169,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77376f95-e501-47e5-bd4d-ed82b508f591")
-	)
-	(junction
-		(at 106.68 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e93a659-4e01-48c7-94ed-0a2646eacea1")
 	)
 	(junction
 		(at 212.09 85.09)
@@ -2215,16 +2215,6 @@
 			(type default)
 		)
 		(uuid "0a0b8b5d-2fcb-4971-bcb3-ebdff55ae043")
-	)
-	(wire
-		(pts
-			(xy 106.68 105.41) (xy 107.95 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d0680d3-2fcd-4533-aa9b-4c50b2b075f7")
 	)
 	(wire
 		(pts
@@ -2305,6 +2295,16 @@
 			(type default)
 		)
 		(uuid "24976bbe-9057-4fca-bb13-92d1233f6346")
+	)
+	(wire
+		(pts
+			(xy 107.95 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25105293-9294-43b9-b0ba-ef62f5f88abb")
 	)
 	(wire
 		(pts
@@ -2658,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 102.87) (xy 110.49 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0b55aa-081c-4e22-8db2-e3d1790fed8c")
-	)
-	(wire
-		(pts
 			(xy 212.09 72.39) (xy 212.09 85.09)
 		)
 		(stroke
@@ -2838,6 +2828,30 @@
 			)
 		)
 	)
+	(global_label "+9V"
+		(shape input)
+		(at 185.42 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ccc0e49-4c0b-4843-bac6-6a05d3a9853b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.5643 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DEBUG_LED2"
 		(shape input)
 		(at 110.49 97.79 0)
@@ -2932,19 +2946,19 @@
 			)
 		)
 	)
-	(global_label "PICO_DEBUG"
+	(global_label "+9V"
 		(shape input)
-		(at 110.49 102.87 0)
+		(at 151.13 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "bb2a13d3-1c1f-4ec8-b67b-afeeedb8d8cf")
+		(uuid "bfe0314a-7721-427c-a08c-4bdc32d9b279")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2076 102.87 0)
+			(at 144.2743 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,7 +2966,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+	)
+	(global_label "-9V"
+		(shape input)
+		(at 151.13 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c44a1bf1-0e01-4aa8-90ac-8b85129827a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.2743 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3061,6 +3099,30 @@
 		(uuid "d5704aa7-260d-4fa8-af6f-c3b648d7a62d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.1135 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "-9V"
+		(shape input)
+		(at 185.42 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8ab43a4-4f89-4f01-a74a-66181815f469")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.5643 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3994,7 +4056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 105.41 0)
+		(at 107.95 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4005,7 +4067,7 @@
 		(fields_autoplaced yes)
 		(uuid "e26b8db2-5da1-458b-b268-301933c66435")
 		(property "Reference" "#PWR015"
-			(at 106.68 111.76 0)
+			(at 107.95 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4016,7 +4078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 110.49 0)
+			(at 107.95 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4026,7 +4088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 105.41 0)
+			(at 107.95 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4037,7 +4099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 105.41 0)
+			(at 107.95 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 105.41 0)
+			(at 107.95 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
