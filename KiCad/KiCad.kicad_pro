@@ -623,14 +623,32 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -673,7 +691,7 @@
         "uuid": "24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
       }
     ],
-    "used_designators": "U6-8,#PWR16-24,D1,R1-10,C6-11",
+    "used_designators": "U1,U3,U6-11,BT1-2,#PWR2,#PWR7,#PWR11-12,#PWR16-29,D1,R1-12,C1-28,TP1-4,A1",
     "variants": []
   },
   "sheets": [
@@ -696,6 +714,10 @@
     [
       "5db09122-b5d9-4ae7-9448-db4e2d1486d8",
       "AnalogBE"
+    ],
+    [
+      "aec58584-22d0-461c-9b4b-905aa31e063c",
+      "PowerSystem"
     ]
   ],
   "text_variables": {},
