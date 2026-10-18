@@ -1137,7 +1137,7 @@
 	)
 	(text_box "From datasheet of PCM1808:\n\nC1, C2:	1uF electrolytic capacitor\n\nC3, C4: bypass capacitors, 0.1uF ceramic OR 10uF electrolytic (currently ceramic)\n\nC5:	0.1uF or 10uF electrolytic\n"
 		(exclude_from_sim no)
-		(at 97.79 52.07 0)
+		(at 97.79 46.0139 0)
 		(size 91.44 16.2161)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2253,10 +2253,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d75528c0-5dd6-411d-9279-e2b326e310c2")
+			(uuid "d75528c0-5dd6-411d-9279-e2b326e310c3")
 		)
 		(pin "1"
-			(uuid "2ca95d3a-9508-4e83-be40-5958b337de2a")
+			(uuid "2ca95d3a-9508-4e83-be40-5958b337de2b")
 		)
 		(instances
 			(project "KiCad"
@@ -2332,10 +2332,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fbdb89a-a2ac-4ebc-ad48-f67289f93df4")
+			(uuid "9fbdb89a-a2ac-4ebc-ad48-f67289f93df5")
 		)
 		(pin "2"
-			(uuid "edb9f7bb-00e9-4e8a-aa1c-5788d4cfef63")
+			(uuid "edb9f7bb-00e9-4e8a-aa1c-5788d4cfef64")
 		)
 		(instances
 			(project "KiCad"

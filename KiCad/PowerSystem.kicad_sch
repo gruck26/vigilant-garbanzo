@@ -921,16 +921,10 @@
 		(uuid "2b35432b-7ab2-41d7-b971-653f99ab6830")
 	)
 	(junction
-		(at 101.6 72.39)
+		(at 91.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f47e4fa-2d5b-4e09-a592-ec99211a5e6e")
-	)
-	(junction
-		(at 101.6 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6af4073f-4d07-42c4-a03f-e9b51e38083a")
+		(uuid "6452648b-8c25-41b0-987e-4ef6942edd14")
 	)
 	(junction
 		(at 109.22 92.71)
@@ -945,20 +939,26 @@
 		(uuid "b0131471-314c-465c-9fba-5b102cd9822b")
 	)
 	(junction
+		(at 100.33 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc6c6fc-cb64-46e0-abb4-dd6cd5d6f60b")
+	)
+	(junction
 		(at 109.22 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edb3380f-911b-4d5e-a10d-746dffa1b14d")
 	)
 	(junction
-		(at 93.98 72.39)
+		(at 100.33 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f891b31e-cf98-4121-9987-35e6adeb03d4")
+		(uuid "eebf977d-560b-457a-ab83-89e99978b5bb")
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 72.39)
+			(xy 100.33 78.74) (xy 100.33 72.39)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 72.39) (xy 93.98 72.39)
+			(xy 82.55 72.39) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1008,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 93.98 72.39)
+			(xy 100.33 72.39) (xy 109.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156d5670-ecc2-4d9d-9a04-6fdf192323a7")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1048,16 +1058,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 109.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7383d18d-7e3e-4e82-b8be-fdb1856ec12e")
-	)
-	(wire
-		(pts
 			(xy 124.46 93.98) (xy 124.46 92.71)
 		)
 		(stroke
@@ -1088,17 +1088,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 109.22 92.71)
+			(xy 100.33 92.71) (xy 91.44 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abb9c5bc-4efc-43e7-8298-c4179664a9ac")
+		(uuid "a2091a5c-daf9-4fc1-b0a5-780f7643f03f")
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 93.98 92.71)
+			(xy 91.44 72.39) (xy 100.33 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1818d90-68e7-4b18-a518-5af44ef62120")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.82) (xy 91.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1108,23 +1118,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 101.6 92.71)
+			(xy 100.33 83.82) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9577ffc-1623-45be-8ec3-c056aa831a73")
-	)
-	(wire
-		(pts
-			(xy 93.98 72.39) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d74ee5cc-41c6-461a-8b87-c8887eb80735")
 	)
 	(wire
 		(pts
@@ -1138,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 93.98 92.71)
+			(xy 100.33 92.71) (xy 109.22 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1284,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 101.6 78.74 0)
+		(at 100.33 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1294,7 +1294,7 @@
 		(dnp no)
 		(uuid "58b5d7d7-ce75-48df-83cb-54f5d791959f")
 		(property "Reference" "C26"
-			(at 97.282 80.518 0)
+			(at 96.012 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 97.536 82.296 0)
+			(at 96.012 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1316,7 +1316,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.7"
-			(at 101.6 78.74 0)
+			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1327,7 +1327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 78.74 0)
+			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 101.6 78.74 0)
+			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1786,7 +1786,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 93.98 81.28 0)
+		(at 91.44 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1796,7 +1796,7 @@
 		(dnp no)
 		(uuid "c6ae58a8-75eb-4a66-b70b-9d0c09f3e7b0")
 		(property "Reference" "BT1"
-			(at 87.376 78.74 0)
+			(at 84.836 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1807,7 +1807,7 @@
 			)
 		)
 		(property "Value" "9V"
-			(at 87.63 81.026 0)
+			(at 85.09 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1818,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_MPD_BA9VPC_1xPP3"
-			(at 93.98 79.756 90)
+			(at 91.44 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 79.756 90)
+			(at 91.44 79.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,7 +1840,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 93.98 81.28 0)
+			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1851,7 +1851,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 93.98 81.28 0)
+			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 93.98 81.28 0)
+			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1873,7 +1873,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 93.98 81.28 0)
+			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
