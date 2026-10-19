@@ -1,4 +1,6 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "PCM1808") (type "KiCad") (uri "C:/Users/gbrucker/Desktop/Fall 26/ECE 494/footprints/Senior_Design/KiCADv6") (options "") (descr ""))
+	(lib (name "MCP1703_3302") (type "KiCad") (uri "${KIPRJMOD}/schems/MCP1703_3302.kicad_sym") (options "") (descr ""))
+	(lib (name "MPC1703_500") (type "KiCad") (uri "${KIPRJMOD}/schems/MPC1703_500.kicad_sym") (options "") (descr ""))
 )
