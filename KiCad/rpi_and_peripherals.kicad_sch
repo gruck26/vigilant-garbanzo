@@ -2808,6 +2808,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1. need guitar input (and footprint)\n2. need usb-c connector (and footprint)\n3. need footprints for the control system (?)\n4. need to add battery switch (and footprint)\n5. investigate component choices, ie ratings\n6.  input filter on adc has two cpacitors, change to 0 ohm resistors with DNI values"
+		(exclude_from_sim no)
+		(at 202.184 -18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75f255aa-a75e-4335-a9e0-ce959685b8ea")
+	)
 	(text_box "Raspberry Pi Pico 2 Dev Board\n"
 		(exclude_from_sim no)
 		(at 33.02 15.1017 0)
