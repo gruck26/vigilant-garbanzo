@@ -2764,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0020A_N"
+		(property "Footprint" "Package_SO:Texas_PW0020A_TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 148.336 45.212 0)
 			(hide yes)
 			(show_name no)
