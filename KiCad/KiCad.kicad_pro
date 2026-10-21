@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.508,
-          "width": 1.2573
+          "height": 1.75,
+          "width": 1.125
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -72,7 +72,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "unconnected_items|189870000|107675000|F.Cu|4|ef1c10c7-d32d-49c7-88f8-d28f6eec316f|cad79467-da5c-4e5c-86bb-ac6a89516cc3",
+          "unconnected_items|189870000|107675000|F.Cu|4|23ca64e0-ee0d-4923-a185-97b28ce06031|3a5820f0-2900-4544-963b-38e002b54bcf",
           ""
         ]
       ],
