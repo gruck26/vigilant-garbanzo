@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.75,
-          "width": 1.125
+          "drill": 1.85,
+          "height": 3.4,
+          "width": 3.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -71,6 +71,22 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
+        [
+          "track_dangling|197530000|86560000|192083cc-7559-45fe-8c69-1d2a7c313c03|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|199660000|87315000|50f8ac6f-06c4-4a25-837b-a24954cda2b9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|208780000|87060000|eddd3827-ebcc-4dcb-add3-beb46e0ffdc2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|213840000|92770000|dd5c809f-f8cc-4151-b64a-d861ae1d66c2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "unconnected_items|189870000|107675000|F.Cu|4|23ca64e0-ee0d-4923-a185-97b28ce06031|3a5820f0-2900-4544-963b-38e002b54bcf",
           ""
@@ -121,7 +137,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -265,7 +281,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1181100|939800|b9ef232c-d31f-4f20-8946-b3df75c7a8f7|24fdf2b1-c603-4635-8697-d95ec8a2a851|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df",
+        ""
+      ],
+      [
+        "multiple_net_names|1181100|939800|f9a1c2bb-a81a-420b-b120-cdc33096b510|24fdf2b1-c603-4635-8697-d95ec8a2a851|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df",
+        ""
+      ],
+      [
+        "multiple_net_names|2298700|635000|d4adcc20-649a-47fe-8d68-7f4afac84ef5|da37f009-f24e-4acc-adb3-528e40fe3d93|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df",
+        ""
+      ],
+      [
+        "multiple_net_names|889000|660400|b9ef232c-d31f-4f20-8946-b3df75c7a8f7|e583c207-1eb8-464b-bd76-f30a72e2874a|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df|/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -471,7 +504,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -655,12 +688,78 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -705,7 +804,7 @@
         "uuid": "24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
       }
     ],
-    "used_designators": "AnalogFE1,U1-5,#PWR1-14,#PWR42,#PWR46-47,#PWR62,C1-4,C6,C30,C32-33,R1-2,AnalogBE1,SW7",
+    "used_designators": "AnalogFE1,U1-5,U8-9,#PWR1-14,#PWR25,#PWR42,#PWR45-47,#PWR49-50,#PWR52,#PWR62-70,C1-4,C6,C30,C32-33,C35-41,#FLG3,#FLG5-9,R1-2,R14-15,R17-20,AnalogBE1,SW7",
     "variants": []
   },
   "sheets": [

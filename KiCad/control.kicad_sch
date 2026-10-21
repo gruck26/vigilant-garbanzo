@@ -2735,7 +2735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+		(property "Footprint" "header_fem_pin2:SAMESKY_SSK02-FPH-254-A2"
 			(at 260.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2896,7 +2896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+		(property "Footprint" "header_fem_pin2:SAMESKY_SSK02-FPH-254-A2"
 			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3057,7 +3057,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+		(property "Footprint" "header_fem_pin2:SAMESKY_SSK02-FPH-254-A2"
 			(at 146.05 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3176,6 +3176,12 @@
 					(unit 1)
 				)
 			)
+			(project "KiCad"
+				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/25a4df0c-f5c6-44f8-9b53-373c76b27ec3"
+					(reference "J10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3212,7 +3218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+		(property "Footprint" "header_fem_pin2:SAMESKY_SSK02-FPH-254-A2"
 			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3437,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3526,7 +3532,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3733,7 +3739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+		(property "Footprint" "header_fem_pin2:SAMESKY_SSK02-FPH-254-A2"
 			(at 241.3 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3952,7 +3958,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4023,6 +4029,12 @@
 					(unit 1)
 				)
 			)
+			(project "KiCad"
+				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/25a4df0c-f5c6-44f8-9b53-373c76b27ec3"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4032,7 +4044,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "926e7cf3-7ff7-4371-94a8-2f9faa9e4a9b")
@@ -4151,7 +4163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+		(property "Footprint" "header_fem_pin2:SAMESKY_SSK02-FPH-254-A2"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4312,7 +4324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A3:SAMESKY_SSK02-FPH-254-A3"
+		(property "Footprint" "header_fem_pin3:SAMESKY_SSK02-FPH-254-A3"
 			(at 78.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A3:SAMESKY_SSK02-FPH-254-A3"
+		(property "Footprint" "header_fem_pin3:SAMESKY_SSK02-FPH-254-A3"
 			(at 78.74 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4492,7 +4504,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4648,6 +4660,12 @@
 					(unit 1)
 				)
 			)
+			(project "KiCad"
+				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/25a4df0c-f5c6-44f8-9b53-373c76b27ec3"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4684,7 +4702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A3:SAMESKY_SSK02-FPH-254-A3"
+		(property "Footprint" "header_fem_pin3:SAMESKY_SSK02-FPH-254-A3"
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4761,7 +4779,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4883,7 +4901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSK02-FPH-254-A3:SAMESKY_SSK02-FPH-254-A3"
+		(property "Footprint" "header_fem_pin3:SAMESKY_SSK02-FPH-254-A3"
 			(at 78.74 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4960,7 +4978,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5309,7 +5327,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
