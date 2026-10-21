@@ -4,5 +4,6 @@
 	(lib (name "cap_audio") (type "KiCad") (uri "${KIPRJMOD}/cap_audio.pretty") (options "") (descr ""))
 	(lib (name "charge_pump") (type "KiCad") (uri "${KIPRJMOD}/charge_pump.pretty") (options "") (descr ""))
 	(lib (name "op_amp") (type "KiCad") (uri "${KIPRJMOD}/op_amp.pretty") (options "") (descr ""))
-	(lib (name "header_fem") (type "KiCad") (uri "${KIPRJMOD}/libraries/header_female") (options "") (descr ""))
+	(lib (name "header_fem_2") (type "KiCad") (uri "${KIPRJMOD}/libraries/female_header_2pin") (options "") (descr ""))
+	(lib (name "header_fem_3") (type "KiCad") (uri "${KIPRJMOD}/libraries/female_header_3pin") (options "") (descr ""))
 )
