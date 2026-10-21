@@ -1525,13 +1525,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 204.47 77.47)
+			(xy 196.85 78.74) (xy 196.85 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02091b3a-6433-4c5b-83bc-fa2101ec98de")
+		(uuid "0a6a7d27-b6a0-47de-8c01-d83e293ef1a5")
 	)
 	(wire
 		(pts
@@ -1542,26 +1542,6 @@
 			(type default)
 		)
 		(uuid "0dce784f-475b-46dc-a503-880bbc3488d7")
-	)
-	(wire
-		(pts
-			(xy 196.85 80.01) (xy 196.85 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ba4a60-77c1-4dbc-a8ea-e0455c68ca89")
-	)
-	(wire
-		(pts
-			(xy 204.47 86.36) (xy 204.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c5c277-52f0-4b47-8ab5-8a829be1f9d1")
 	)
 	(wire
 		(pts
@@ -1715,16 +1695,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 85.09) (xy 196.85 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc94fa4-90ce-41ff-b45d-8743b4ed3245")
-	)
-	(wire
-		(pts
 			(xy 205.74 74.93) (xy 223.52 74.93)
 		)
 		(stroke
@@ -1742,6 +1712,16 @@
 			(type default)
 		)
 		(uuid "6beba888-f6bb-4802-9c2c-4326af5c35f0")
+	)
+	(wire
+		(pts
+			(xy 204.47 80.01) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2fc800-2567-436c-9ae2-fb07da09a5a7")
 	)
 	(wire
 		(pts
@@ -1795,6 +1775,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 87.63) (xy 204.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd32fcf-35dc-4eeb-95fa-8ecb5e23417d")
+	)
+	(wire
+		(pts
 			(xy 193.04 85.09) (xy 193.04 93.98)
 		)
 		(stroke
@@ -1822,6 +1812,16 @@
 			(type default)
 		)
 		(uuid "b111f323-eced-4882-9e98-7e3fd6740b0e")
+	)
+	(wire
+		(pts
+			(xy 196.85 86.36) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7b2f43-46b9-4f95-9875-c6c0d673fd25")
 	)
 	(wire
 		(pts
@@ -2181,6 +2181,170 @@
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/abb2135b-3d91-4e02-83b2-05321ccf7d2b"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "113991fc-253e-4101-9383-3c5621c9a545")
+		(property "Reference" "R15"
+			(at 207.01 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 207.01 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.454 83.566 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa7aac89-a811-4b9b-9ad4-4771fbb9f5fa")
+		)
+		(pin "1"
+			(uuid "9c24aefd-1dab-4862-9dca-bf3b4f762e41")
+		)
+		(instances
+			(project "KiCad"
+				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/abb2135b-3d91-4e02-83b2-05321ccf7d2b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 196.85 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11b2c4e6-db4f-48c3-9a56-14784b0877e5")
+		(property "Reference" "R16"
+			(at 199.39 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 199.39 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.834 82.296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1d25123-7a5f-406a-ada5-03f25faa30a3")
+		)
+		(pin "1"
+			(uuid "378ef0a7-217e-4a9c-9d56-9f7cfd78683a")
+		)
+		(instances
+			(project "KiCad"
+				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/abb2135b-3d91-4e02-83b2-05321ccf7d2b"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2583,88 +2747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 196.85 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70c2217e-aca6-4910-b91b-0fd14e944d8b")
-		(property "Reference" "C37"
-			(at 199.39 81.2862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNI"
-			(at 199.39 83.8262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 196.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a518285-89bd-408a-a548-3be83b928a7b")
-		)
-		(pin "1"
-			(uuid "73d5ee5e-2196-49b5-867e-6dcfe91c1939")
-		)
-		(instances
-			(project "KiCad"
-				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/abb2135b-3d91-4e02-83b2-05321ccf7d2b"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 204.47 88.9 0)
 		(unit 1)
@@ -2854,7 +2936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SeniorDesign:PW14_TEX"
 			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3330,88 +3412,6 @@
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/abb2135b-3d91-4e02-83b2-05321ccf7d2b"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 204.47 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8ef5338-708b-447f-a777-c5bf49497f4f")
-		(property "Reference" "C36"
-			(at 207.01 82.5562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNI"
-			(at 207.01 85.0962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 204.47 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a518285-89bd-408a-a548-3be83b928a7c")
-		)
-		(pin "1"
-			(uuid "73d5ee5e-2196-49b5-867e-6dcfe91c193a")
-		)
-		(instances
-			(project "KiCad"
-				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/abb2135b-3d91-4e02-83b2-05321ccf7d2b"
-					(reference "C36")
 					(unit 1)
 				)
 			)

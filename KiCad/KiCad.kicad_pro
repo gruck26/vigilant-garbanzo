@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 2.6
+          "height": 0.508,
+          "width": 1.2573
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -70,7 +70,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|189870000|107675000|F.Cu|4|ef1c10c7-d32d-49c7-88f8-d28f6eec316f|cad79467-da5c-4e5c-86bb-ac6a89516cc3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -511,6 +516,28 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -518,7 +545,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GNDA"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -611,44 +655,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
-      "sort_asc": false,
-      "sort_field": "${EXCLUDE_FROM_BOARD}"
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -679,14 +693,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "high_level_schematic",
     "plot_directory": "",
     "reuse_designators": true,
@@ -699,7 +705,7 @@
         "uuid": "24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
       }
     ],
-    "used_designators": "U12-15,D2-5,#PWR7,#PWR9,#PWR12-13,#PWR27,#PWR37-61,C4,C28-38,#FLG1-4,R13-17,A1-2",
+    "used_designators": "AnalogFE1,U1-5,#PWR1-14,#PWR42,#PWR46-47,#PWR62,C1-4,C6,C30,C32-33,R1-2,AnalogBE1,SW7",
     "variants": []
   },
   "sheets": [

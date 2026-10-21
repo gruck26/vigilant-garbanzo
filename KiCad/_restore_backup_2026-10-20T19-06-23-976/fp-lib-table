@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "rpi_foot") (type "KiCad") (uri "${KIPRJMOD}/rpi_foot.pretty") (options "") (descr ""))
+	(lib (name "cap_audio") (type "KiCad") (uri "${KIPRJMOD}/cap_audio.pretty") (options "") (descr ""))
+	(lib (name "charge_pump") (type "KiCad") (uri "${KIPRJMOD}/charge_pump.pretty") (options "") (descr ""))
+	(lib (name "op_amp") (type "KiCad") (uri "${KIPRJMOD}/op_amp.pretty") (options "") (descr ""))
+	(lib (name "header_fem") (type "KiCad") (uri "${KIPRJMOD}/libraries/header_female") (options "") (descr ""))
+)

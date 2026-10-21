@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4fee070f-07d9-4329-8477-828e6b184216")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "ADC Din"
+		(shape bidirectional)
+		(at 11.5094 12.7798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "472686d8-5047-4121-80f5-c5756f4208fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.5094 12.7798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ADC Din"
+		(shape bidirectional)
+		(at 7.6994 8.9698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50ec4637-8315-4cd1-aeb8-3c65a0fea12b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 7.6994 8.9698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ADC Din"
+		(shape bidirectional)
+		(at 15.3194 16.5898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "704797b1-692c-408b-920c-60b36a3caa10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.3194 16.5898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ADC Din"
+		(shape bidirectional)
+		(at 3.8894 5.1598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9da653e1-7b5f-4c8b-a1bc-216c12d65706")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 3.8894 5.1598 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ADC Din"
+		(shape bidirectional)
+		(at 0.0794 1.3498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3236b71-127f-49f1-a470-9e67ae9b787d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 0.0794 1.3498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ADC Din"
+		(shape bidirectional)
+		(at 19.1294 20.3998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff01b989-6c21-4087-8257-b363a77ab90a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.1294 20.3998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+)
