@@ -1238,6 +1238,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "female_headers_2pin:SSK02-FPH-254-A2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SSK02-FPH-254-A2"
+				(at -5.08 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "ASHISH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SSK02-FPH-254-A2_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+9V"
 			(power global)
 			(pin_numbers
@@ -1641,6 +1829,12 @@
 		(uuid "0a97bba2-6538-4ef5-bdb1-dcfb249a8b23")
 	)
 	(junction
+		(at 49.53 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "090ed973-b60e-4504-ae70-aed4a87e47bb")
+	)
+	(junction
 		(at 134.62 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1659,12 +1853,6 @@
 		(uuid "30f3cff6-d607-4b96-aa4e-955016dd6910")
 	)
 	(junction
-		(at 59.69 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cd4b241-cd0f-41ee-b65d-fad0cdfcc22b")
-	)
-	(junction
 		(at 106.68 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1681,6 +1869,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74769e95-9504-4f4e-b06e-1f6213da1e9f")
+	)
+	(junction
+		(at 59.69 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7718e52a-cae2-466e-803b-527068d34be9")
 	)
 	(junction
 		(at 127 93.98)
@@ -1852,16 +2046,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 96.52) (xy 59.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f50bdaf-6efe-432e-aa7a-9ce1de7a940e")
-	)
-	(wire
-		(pts
 			(xy 153.67 63.5) (xy 147.32 63.5)
 		)
 		(stroke
@@ -1982,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 107.95) (xy 49.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cba07a-d4ef-4501-b16f-b9eb3b6f78e6")
+	)
+	(wire
+		(pts
 			(xy 203.2 101.6) (xy 203.2 104.14)
 		)
 		(stroke
@@ -2009,6 +2203,16 @@
 			(type default)
 		)
 		(uuid "704f608d-f8ab-4fff-9a53-151f553e9113")
+	)
+	(wire
+		(pts
+			(xy 45.72 96.52) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b28c52-8486-4e8b-ac17-d4a1232d7b79")
 	)
 	(wire
 		(pts
@@ -2222,6 +2426,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 99.06) (xy 45.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b256cced-bfb3-424b-8145-fa6a746e1e26")
+	)
+	(wire
+		(pts
 			(xy 134.62 119.38) (xy 134.62 121.92)
 		)
 		(stroke
@@ -2380,6 +2594,16 @@
 		)
 		(uuid "f5f11578-93ed-4161-bee8-0a4b7c40626a")
 	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff30b10b-0f31-47c5-a419-7b3024b66eb9")
+	)
 	(label "Guitar_In"
 		(at 58.42 96.52 180)
 		(effects
@@ -2389,6 +2613,30 @@
 			(justify right bottom)
 		)
 		(uuid "582baa3f-70c7-44e4-872c-000e2ed8162e")
+	)
+	(global_label "GuitarIn"
+		(shape input)
+		(at 161.29 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcd3e631-23a6-44a9-9254-f7b4e31bb629")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.7137 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:BAT54S")
@@ -2468,6 +2716,12 @@
 			(uuid "9bdbbdce-4f41-4340-b344-5d68d4a0329c")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "D2")
@@ -2550,6 +2804,12 @@
 			(uuid "3fd98e5b-9a20-42b8-ab49-50d8be2c5caf")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C11")
@@ -2648,6 +2908,12 @@
 			(uuid "ffd5115e-a482-42ed-a3a4-2f87b845360b")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "U8")
@@ -2746,6 +3012,12 @@
 			(uuid "ffd5115e-a482-42ed-a3a4-2f87b845360c")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "U7")
@@ -2823,6 +3095,12 @@
 			(uuid "4eebecae-9c28-4081-adad-edb746de0c09")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR020")
@@ -2902,6 +3180,12 @@
 			(uuid "312d0a49-e348-404e-836a-e475f16984ae")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "TP1")
@@ -2984,6 +3268,12 @@
 			(uuid "c6810b9e-90bf-4c9e-aa29-ca04a92852b0")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R6")
@@ -3065,6 +3355,12 @@
 			(uuid "65e8a29e-9fbd-448d-b071-38cf0a344116")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R2")
@@ -3146,6 +3442,12 @@
 			(uuid "8246f574-efeb-445f-9301-1bce029326ca")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R7")
@@ -3226,6 +3528,12 @@
 			(uuid "19d56522-4609-4219-91c1-de4b39251ae1")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C6")
@@ -3305,6 +3613,12 @@
 			(uuid "5df58d5c-d342-4327-ac87-39132702c567")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR023")
@@ -3387,6 +3701,12 @@
 			(uuid "9adb435c-98ff-4fb2-9c38-c84936d52a54")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R8")
@@ -3467,6 +3787,12 @@
 			(uuid "671dfc83-409f-4d4d-b8aa-7dc4c963c4b4")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R4")
@@ -3549,6 +3875,12 @@
 			(uuid "4a4c83ac-a207-43b2-aa30-e9d172ecd8e7")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R3")
@@ -3631,6 +3963,12 @@
 			(uuid "d9f17759-2ca2-4e25-962e-59ee613ef19e")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R10")
@@ -3711,9 +4049,168 @@
 			(uuid "9c3fe9f4-df28-44c7-a22c-52a01a591890")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "female_headers_2pin:SSK02-FPH-254-A2")
+		(at 35.56 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a67cae-761f-4f99-8115-62d563a65384")
+		(property "Reference" "J17"
+			(at 35.56 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Guitar input"
+			(at 35.56 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSK02-FPH-254-A2:SAMESKY_SSK02-FPH-254-A2"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "588ed1d0-1e89-4ab7-9efa-231be0f7394e")
+		)
+		(pin "2"
+			(uuid "c456fd74-7181-4a33-8be7-b6f3b62b0f69")
+		)
+		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3789,6 +4286,12 @@
 			(uuid "7575ac57-3483-4e08-aaa1-38ec647110cc")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR019")
@@ -3867,6 +4370,12 @@
 			(uuid "c8039a85-b771-4e12-8b35-9af50aa34a88")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "TP2")
@@ -3945,6 +4454,12 @@
 			(uuid "22df251d-f36e-43cf-8c0f-ef14fa27b2ab")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR017")
@@ -4043,6 +4558,12 @@
 			(uuid "ffd5115e-a482-42ed-a3a4-2f87b845360d")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "U6")
@@ -4124,6 +4645,12 @@
 			(uuid "91ccfd8a-117e-4443-a110-3a0a63cd25bd")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C9")
@@ -4206,6 +4733,12 @@
 			(uuid "7560cd63-6b21-4a5d-9e16-17ba5b142b9a")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C10")
@@ -4285,6 +4818,12 @@
 			(uuid "96f540f2-157e-4059-a804-6dda673a7b14")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "TP3")
@@ -4366,6 +4905,12 @@
 			(uuid "5f9f3d3a-f8a4-422a-b733-d79274238dcf")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R9")
@@ -4448,6 +4993,12 @@
 			(uuid "649c3bfd-37cc-4fa2-a43b-b1eb8fd015ab")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C7")
@@ -4527,6 +5078,12 @@
 			(uuid "77270851-9ba2-4420-aa87-faee837f65ab")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "TP4")
@@ -4605,6 +5162,12 @@
 			(uuid "3c9dcdaa-8fde-432a-810d-88eac377ac53")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR018")
@@ -4687,6 +5250,12 @@
 			(uuid "a767ead4-777e-4343-b4b5-c1cb9a4e9428")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "R1")
@@ -4765,6 +5334,12 @@
 			(uuid "9b4fec1b-927b-4076-aea5-5962771237c3")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR021")
@@ -4843,6 +5418,12 @@
 			(uuid "1835a706-24ba-43ba-bd9e-37e603602309")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR016")
@@ -4924,6 +5505,12 @@
 			(uuid "a50b161a-018c-4a19-9855-d39452f58350")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C8")
@@ -5002,6 +5589,12 @@
 			(uuid "3170a40d-fa92-4fa9-841b-3371dfc5c4d0")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "#PWR022")

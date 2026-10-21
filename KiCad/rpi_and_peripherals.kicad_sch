@@ -11,6 +11,172 @@
 		(company "ECE-494-006")
 	)
 	(lib_symbols
+		(symbol "Diode:1N5819"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5819"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N5819_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5819_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -1045,6 +1211,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5VD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5VD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "1. need guitar input (and footprint)\n2. need usb-c connector (and footprint)\n3. need footprints for the control system (?)\n4. need to add battery switch (and footprint)\n5. investigate component choices, ie ratings\n6.  input filter on adc has two cpacitors, change to 0 ohm resistors with DNI values"
 		(exclude_from_sim no)
@@ -1157,14 +1462,6 @@
 		(uuid "c286c804-0671-4040-aa64-cbb9a831debf")
 	)
 	(no_connect
-		(at 137.16 67.31)
-		(uuid "0354e743-0f12-4aa9-8221-c3af5767c73c")
-	)
-	(no_connect
-		(at 109.22 118.11)
-		(uuid "056b4130-a955-4b94-9b04-8dbbae37edf6")
-	)
-	(no_connect
 		(at 132.08 67.31)
 		(uuid "1ef52e9e-958a-4e35-bf3b-2ac5b48f65e3")
 	)
@@ -1177,8 +1474,8 @@
 		(uuid "2ddc12bb-d367-44ba-b852-f4aab779f269")
 	)
 	(no_connect
-		(at 109.22 120.65)
-		(uuid "42c20af2-17a7-4a51-af5f-cda033f4118c")
+		(at 154.94 92.71)
+		(uuid "388865d1-78f9-46ab-9e6b-91d99b348c58")
 	)
 	(no_connect
 		(at 154.94 85.09)
@@ -1193,6 +1490,10 @@
 		(uuid "62df6a17-e349-45e7-9169-2086150a666b")
 	)
 	(no_connect
+		(at 109.22 123.19)
+		(uuid "66247a50-ac0f-492c-a2ff-31c4ead3920d")
+	)
+	(no_connect
 		(at 109.22 102.87)
 		(uuid "7c492a5e-5155-4e48-a83d-07163b79ba54")
 	)
@@ -1205,16 +1506,32 @@
 		(uuid "9d0ccc18-6d38-45f0-9fe2-4dd8e934bb16")
 	)
 	(no_connect
-		(at 109.22 107.95)
-		(uuid "cd29c833-5609-48c2-8539-9e532f19e46f")
-	)
-	(no_connect
 		(at 109.22 100.33)
 		(uuid "f339ab05-f7aa-4bf6-8e9e-6337f08244e9")
 	)
 	(no_connect
 		(at 154.94 97.79)
 		(uuid "f56ce1c7-09cb-44e5-81c8-b2a4901754f8")
+	)
+	(wire
+		(pts
+			(xy 137.16 62.23) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1213962e-3bd0-456d-b7e1-28737d9b7a64")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618ff5b7-1afc-4254-974b-49277285f365")
 	)
 	(global_label "GPIO17"
 		(shape input)
@@ -1262,6 +1579,30 @@
 			)
 		)
 	)
+	(global_label "GPIO27"
+		(shape input)
+		(at 109.22 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44f4cc65-2b4a-440b-a130-a4a213c18427")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.3405 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO15"
 		(shape input)
 		(at 154.94 128.27 0)
@@ -1283,6 +1624,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO26"
+		(shape input)
+		(at 109.22 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "538155fb-2670-473b-900b-2fb3a5aaa15c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.3405 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1430,6 +1795,30 @@
 			)
 		)
 	)
+	(global_label "GPIO22"
+		(shape input)
+		(at 109.22 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f900817-f912-4ad9-b07a-b1b891c3854e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.3405 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MCK"
 		(shape bidirectional)
 		(at 154.94 115.57 0)
@@ -1449,30 +1838,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "GPIO28"
-		(shape input)
-		(at 109.22 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0b61a9c-1016-49b9-b885-e3565f1c689b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3405 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1616,30 +1981,6 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
-		(shape input)
-		(at 154.94 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f680c4af-86cb-4204-a1d4-889dd6c3e1b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.61 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO8"
 		(shape input)
 		(at 154.94 110.49 0)
@@ -1661,6 +2002,166 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 137.16 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0094dc2f-348a-4fbe-a400-0c23e7f43621")
+		(property "Reference" "D1"
+			(at 139.7 57.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 139.7 60.0074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 141.605 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 137.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 137.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "581cce85-93c0-44ed-97d4-b844b5841a2b")
+		)
+		(pin "2"
+			(uuid "15098268-d71d-410f-b6fd-e4041eea5fcc")
+		)
+		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 137.16 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5764f962-1fbe-40eb-aee2-2e5b77abaa6d")
+		(property "Reference" "#PWR060"
+			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 137.16 46.3591 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 137.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd1517ee-f503-4500-8f86-55892a014f6c")
+		)
+		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
+					(reference "#PWR060")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1852,6 +2353,12 @@
 			(uuid "de030a62-f382-469b-af65-7dd597140cfe")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
+					(reference "A1")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
 					(reference "A1")
@@ -1904,6 +2411,11 @@
 					(page "7")
 				)
 			)
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
+					(page "7")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1947,6 +2459,11 @@
 		(instances
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
+					(page "4")
+				)
+			)
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
 					(page "4")
 				)
 			)
@@ -1996,6 +2513,11 @@
 					(page "5")
 				)
 			)
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
+					(page "5")
+				)
+			)
 		)
 	)
 	(sheet
@@ -2039,6 +2561,11 @@
 		(instances
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
+					(page "3")
+				)
+			)
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
 					(page "3")
 				)
 			)
@@ -2088,6 +2615,11 @@
 					(page "2")
 				)
 			)
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
+					(page "2")
+				)
+			)
 		)
 	)
 	(sheet
@@ -2131,6 +2663,11 @@
 		(instances
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af"
+					(page "6")
+				)
+			)
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660"
 					(page "6")
 				)
 			)

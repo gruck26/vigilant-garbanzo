@@ -1167,145 +1167,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1612,12 +1473,6 @@
 		(uuid "44fdacf5-ea11-4d6c-8e8a-fbd611452632")
 	)
 	(junction
-		(at 191.77 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49f0e3ff-dc28-4cfe-a8f7-1fa07089f1b6")
-	)
-	(junction
 		(at 120.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1683,6 +1538,12 @@
 		(color 0 0 0 0)
 		(uuid "e01f4aad-2b59-47c6-9c42-3357513719b2")
 	)
+	(junction
+		(at 191.77 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebbd35df-67eb-4f26-b1d8-5093049675c4")
+	)
 	(wire
 		(pts
 			(xy 109.22 60.96) (xy 128.27 60.96)
@@ -1712,6 +1573,16 @@
 			(type default)
 		)
 		(uuid "0c0639ba-6688-4058-98e7-f178f34ea25a")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.42) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5cdb7a-c741-40dc-86bf-70d800db5d0d")
 	)
 	(wire
 		(pts
@@ -1782,6 +1653,16 @@
 			(type default)
 		)
 		(uuid "2b6ab5af-a058-4779-a392-1043903b1d6b")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de68473-67cf-4832-8c6f-2df8511969ec")
 	)
 	(wire
 		(pts
@@ -2125,7 +2006,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 58.42) (xy 204.47 58.42)
+			(xy 200.66 67.31) (xy 207.01 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2232,6 +2113,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "Screen_Vcc"
+		(shape input)
+		(at 207.01 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "542541fd-2ccf-44a6-84f7-718c674430a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.6391 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2423,6 +2328,12 @@
 			(uuid "8fe1b6d8-bc27-4530-9d6a-0e5b63292013")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "R11")
@@ -2505,6 +2416,12 @@
 			(uuid "1780d1f3-e2ed-4108-841c-0011170f5349")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C17")
@@ -2584,6 +2501,12 @@
 			(uuid "24fdf2b1-c603-4635-8697-d95ec8a2a851")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR059")
@@ -2667,6 +2590,12 @@
 			(uuid "cba7b658-9517-44f7-b31c-d4f5bdfdce21")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C23")
@@ -2749,6 +2678,12 @@
 			(uuid "a49c9303-9fa1-4916-b3cf-238bfd2f0c41")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C12")
@@ -2886,6 +2821,12 @@
 			(uuid "76ac857a-675f-4a1a-b3c0-990608ce710d")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "U10")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "U10")
@@ -2967,6 +2908,12 @@
 			(uuid "a86ebc99-4a4f-47f9-8aa9-97a7a4d47361")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C20")
@@ -3048,6 +2995,12 @@
 			(uuid "1780d1f3-e2ed-4108-841c-0011170f534a")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C16")
@@ -3126,6 +3079,12 @@
 			(uuid "da37f009-f24e-4acc-adb3-528e40fe3d93")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR038")
@@ -3203,6 +3162,12 @@
 			(uuid "58d788b4-29ba-4179-8ac7-d13e8fb9f480")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR058")
@@ -3285,6 +3250,12 @@
 			(uuid "1780d1f3-e2ed-4108-841c-0011170f534b")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C15")
@@ -3363,88 +3334,15 @@
 			(uuid "f9a1c2bb-a81a-420b-b120-cdc33096b510")
 		)
 		(instances
-			(project "KiCad"
-				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR028")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 204.47 58.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a586b5c2-2955-4de7-a294-1b3b32925c76")
-		(property "Reference" "#PWR045"
-			(at 200.66 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 208.28 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16352af2-3bc5-4e11-8741-0a2eb3e49ed0")
-		)
-		(instances
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
-					(reference "#PWR045")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3519,6 +3417,12 @@
 			(uuid "e583c207-1eb8-464b-bd76-f30a72e2874a")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR057")
@@ -3597,6 +3501,12 @@
 			(uuid "66421bfa-2e0d-454c-8acb-25162f788b5f")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR027")
@@ -3676,6 +3586,12 @@
 			(uuid "09abeb03-5ef9-4662-8f3a-5ba381d5f270")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR07")
@@ -3754,6 +3670,12 @@
 			(uuid "525adbe8-7305-4cda-a6e8-c483f9b37b6c")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR026")
@@ -3836,6 +3758,12 @@
 			(uuid "6b1a82f4-2107-4ea9-b29b-d5038d007b57")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C13")
@@ -3919,6 +3847,12 @@
 			(uuid "b1e8248b-3ebe-4b3d-9f83-0187ec962944")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C14")
@@ -3999,6 +3933,12 @@
 			(uuid "8ddbf925-0c3c-41c9-9728-c1f30e328a71")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "R12")
@@ -4076,6 +4016,12 @@
 			(uuid "b9ef232c-d31f-4f20-8946-b3df75c7a8f7")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "#PWR055")
@@ -4157,6 +4103,12 @@
 			(uuid "a86ebc99-4a4f-47f9-8aa9-97a7a4d47362")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C19")
@@ -4238,6 +4190,12 @@
 			(uuid "a86ebc99-4a4f-47f9-8aa9-97a7a4d47363")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C22")
@@ -4320,6 +4278,12 @@
 			(uuid "a86ebc99-4a4f-47f9-8aa9-97a7a4d47364")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C21")
@@ -4402,6 +4366,12 @@
 			(uuid "1780d1f3-e2ed-4108-841c-0011170f534c")
 		)
 		(instances
+			(project "rpi_and_peripherals"
+				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C18")
