@@ -2941,7 +2941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 92.71 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2954,6 +2954,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 92.71 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RK73H2BTTD4700F"
+			(at 92.71 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +3041,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A3/28772125"
 			(at 71.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3062,6 +3073,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A3"
+			(at 71.12 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3127,7 +3149,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 181.61 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3139,6 +3161,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
 			(at 181.61 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3321,6 +3354,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 179.07 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b969007-7e96-4e7a-9d47-1560d110e078")
 		)
@@ -3379,7 +3423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R71A225KE15D/1033256?s=N4IgTCBcDaIOICUCyBGAHGhB2FBBMYArANICiKhAIiALoC%2BQA"
 			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3391,6 +3435,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM188R71A225KE15D"
 			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3545,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H222KA01D/587234?s=N4IgTCBcDaIOICUCyBGArGhB2FAJMBA0gIIAMKAIiALoC%2BQA"
 			(at 99.06 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3557,6 +3612,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM155R71H222KA01D"
 			(at 99.06 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3646,6 +3712,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "PCM5102APW"
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3775,7 +3852,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ucq.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3787,6 +3864,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 224.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "UWT1H100MCL1GB"
 			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3862,7 +3950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3874,6 +3962,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4117,7 +4216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4129,6 +4228,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
 			(at 232.41 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4370,7 +4480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040222R0FKED/1177815"
 			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4383,6 +4493,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CRCW040222R0FKED"
+			(at 172.72 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H222KA01D/587234?s=N4IgTCBcDaIOICUCyBGArGhB2FAJMBA0gIIAMKAIiALoC%2BQA"
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4795,6 +4916,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM155R71H222KA01D"
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4872,7 +5004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R71A225KE15D/1033256?s=N4IgTCBcDaIOICUCyBGAHGhB2FBBMYArANICiKhAIiALoC%2BQA"
 			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4884,6 +5016,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM188R71A225KE15D"
 			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4958,7 +5101,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 105.41 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4971,6 +5114,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 105.41 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RK73H2BTTD4700F"
+			(at 105.41 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ucq.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 242.57 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5140,6 +5294,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 242.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "UWT1H100MCL1GB"
 			(at 242.57 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ucq.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5227,6 +5392,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 191.77 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "UWT1H100MCL1GB"
 			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5303,7 +5479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ucq.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5315,6 +5491,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 110.49 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "UWT1H100MCL1GB"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5391,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5403,6 +5590,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
 			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)

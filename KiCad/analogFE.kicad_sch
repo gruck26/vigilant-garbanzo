@@ -2914,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC31X7R106K50NT/18151161"
 			(at 260.35 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2927,6 +2927,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GMC31X7R106K50NT"
+			(at 260.35 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,6 +3017,17 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "NE5532DR"
 			(at 248.92 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3196,6 +3218,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 147.32 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acd07f7a-517d-4f91-a7c4-b5d023171725")
 		)
@@ -3262,7 +3295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC31X7R106K50NT/18151161"
 			(at 260.35 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3275,6 +3308,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GMC31X7R106K50NT"
+			(at 260.35 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3344,7 +3388,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C100J5GACTU/411051?s=N4IgTCBcDaIMIAYBsCDMcCMCECkCsA4gIJwAqAqiALoC%2BQA"
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3356,6 +3400,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C100J5GACTU"
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3530,6 +3585,17 @@
 				)
 			)
 		)
+		(property "Part_Number" "NE5532DR"
+			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d4f3f19-2884-488d-8e64-f72748d7e0d8")
 		)
@@ -3624,6 +3690,17 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 161.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "NE5532DR"
 			(at 161.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3901,6 +3978,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 59.69 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "312d0a49-e348-404e-836a-e475f16984ae")
 		)
@@ -3964,7 +4052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3976,6 +4064,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 137.16 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RC1206FR-07100KL"
 			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4062,6 +4161,17 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "NE5532DR"
 			(at 248.92 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4170,6 +4280,17 @@
 				)
 			)
 		)
+		(property "Part_Number" "NE5532DR"
+			(at 90.17 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49dac6ca-dd2b-4d94-bb28-d23ee195dda8")
 		)
@@ -4247,7 +4368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4259,6 +4380,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 73.66 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CR1206-JW-223ELF"
 			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4412,7 +4544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 134.62 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4424,6 +4556,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RC1206FR-07100KL"
 			(at 134.62 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4498,7 +4641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
 			(at 242.57 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4511,6 +4654,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 242.57 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM155R71H104KE14D"
+			(at 242.57 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4578,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
 			(at 242.57 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4591,6 +4745,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 242.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM155R71H104KE14D"
+			(at 242.57 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 67.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4671,6 +4836,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
+			(at 67.31 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
@@ -4843,6 +5019,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 134.62 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "ERJ-8ENF6653V"
 			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
@@ -4917,7 +5104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 99.06 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4930,6 +5117,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 99.06 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RC1206FR-07100KL"
+			(at 99.06 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://nam11.safelinks.protection.outlook.com/GetUrlReputation"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5017,6 +5215,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 78.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "ERA-8AEB473V"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5092,7 +5301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 134.62 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5104,6 +5313,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 134.62 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "ERJ-8ENF6653V"
 			(at 134.62 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5178,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 114.3 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5191,6 +5411,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 114.3 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RK73H2BTTD4700F"
+			(at 114.3 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,6 +5518,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 82.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68e5c388-dcfb-49d8-b2fd-345598c1b489")
 		)
@@ -5343,7 +5585,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5435,6 +5677,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5585,7 +5838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC31X7R106K50NT/18151161"
 			(at 261.62 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5598,6 +5851,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GMC31X7R106K50NT"
+			(at 261.62 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,6 +6031,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 142.24 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8039a85-b771-4e12-8b35-9af50aa34a88")
 		)
@@ -5907,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
 			(at 242.57 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5920,6 +6195,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM155R71H104KE14D"
+			(at 242.57 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6093,6 +6379,17 @@
 				)
 			)
 		)
+		(property "Part_Number" "NE5532DR"
+			(at 90.17 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "461ae88e-3ccb-4fe9-ba58-a112792345dc")
 		)
@@ -6176,7 +6473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6188,6 +6485,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 140.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6264,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C100J5GACTU/411051?s=N4IgTCBcDaIMIAYBsCDMcCMCECkCsA4gIJwAqAqiALoC%2BQA"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6276,6 +6584,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C100J5GACTU"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6506,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC31X7R106K50NT/18151161"
 			(at 261.62 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6519,6 +6838,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GMC31X7R106K50NT"
+			(at 261.62 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6677,6 +7007,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 134.62 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "RC1206FR-07100KL"
 			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6753,7 +7094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B333KC8WPNC/20498521"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6765,6 +7106,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CL10B333KC8WPNC"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6839,7 +7191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H104KE14D/4906220"
 			(at 241.3 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6852,6 +7204,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "GRM155R71H104KE14D"
+			(at 241.3 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,7 +7447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf"
 			(at 59.69 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7096,6 +7459,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 59.69 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "KTR18EZPF1004"
 			(at 59.69 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7576,7 +7950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7588,6 +7962,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 140.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)

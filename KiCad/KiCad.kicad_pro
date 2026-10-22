@@ -750,14 +750,20 @@
           "label": "CREATOR",
           "name": "CREATOR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part_Number",
+          "name": "Part_Number",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 38.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4399,6 +4399,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 38.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4666,6 +4677,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 259.08 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91b7e41f-5637-412c-ac23-a82a89e8e004")
 		)
@@ -4843,6 +4865,17 @@
 				)
 			)
 		)
+		(property "Part_Number" "PMEG2005CT,215"
+			(at 193.04 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "06aa1eba-6d9a-4108-afc3-fc24667602c1")
 		)
@@ -4913,7 +4946,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 241.3 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5005,6 +5038,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 241.3 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5158,7 +5202,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 238.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5252,6 +5296,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 238.76 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7db011c9-6fe3-4de4-a585-b197051b7e2f")
 		)
@@ -5317,7 +5372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1703T-5002E/DB"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/MCP1703-5002E-DB/1636060?s=N4IgTCBcDaILIGEAKBGA7ABgMwFoCsGGYAogPQAiAQiALoC%2BQA"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5330,6 +5385,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "MCP1703-5002E/DB"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5403,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5415,6 +5481,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5849,6 +5926,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 222.25 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab1afc54-fc11-4459-a16c-a5e47702c8b2")
 		)
@@ -5914,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1703T-3302E/DB"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/mcp1703-3302e-db/1635983"
 			(at 156.21 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5927,6 +6015,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "MCP1703-3302E/DB"
 			(at 156.21 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6084,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 38.1 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6096,6 +6195,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 38.1 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6171,7 +6281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/865060640001/5728136?s=N4IgTCBcDaIBwDYCsAGBaAsLsEYQF0BfIA"
 			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6183,6 +6293,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 106.68 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "865060640001"
 			(at 106.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6258,7 +6379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP1703T-5002E/DB"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/MCP1703-5002E-DB/1636060?s=N4IgTCBcDaILIGEAKBGA7ABgMwFoCsGGYAogPQAiAQiALoC%2BQA"
 			(at 48.26 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6271,6 +6392,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "MCP1703-5002E/DB"
 			(at 48.26 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6343,7 +6475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/865060640001/5728136?s=N4IgTCBcDaIBwDYCsAGBaAsLsEYQF0BfIA"
 			(at 115.57 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6355,6 +6487,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "865060640001"
 			(at 115.57 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6431,7 +6574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 140.97 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6443,6 +6586,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "UWT1H100MCL1GB"
 			(at 140.97 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6519,7 +6673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6531,6 +6685,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6741,6 +6906,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 191.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "642873de-f64b-4e77-8f35-da9ab78861e5")
 		)
@@ -6807,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 149.86 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6819,6 +6995,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 149.86 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7580,6 +7767,17 @@
 				)
 			)
 		)
+		(property "Part_Number" "LT1054CDWR"
+			(at 130.81 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6f8d0a3a-50ae-4d50-a9dd-bec264a4e8f8")
 		)
@@ -7665,7 +7863,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A3/28772125"
 			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7697,6 +7895,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A3"
+			(at 204.47 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7852,7 +8061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080545012.pdf"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7864,6 +8073,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "865080545012"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8108,7 +8328,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 223.52 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8120,6 +8340,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 223.52 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C105K4RACTU"
 			(at 223.52 146.05 0)
 			(hide yes)
 			(show_name no)

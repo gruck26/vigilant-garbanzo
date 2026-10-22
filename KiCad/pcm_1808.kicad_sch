@@ -2285,7 +2285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 83.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2297,6 +2297,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
 			(at 83.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2457,7 +2468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 196.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2469,6 +2480,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
 			(at 196.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2542,7 +2564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/865060640001/5728136?s=N4IgTCBcDaIBwDYCsAGBaAsLsEYQF0BfIA"
 			(at 226.06 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2554,6 +2576,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 226.06 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "865060640001"
 			(at 226.06 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2629,7 +2662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
 			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2641,6 +2674,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "C0603C104K5RACTU"
 			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2961,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 201.93 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2974,6 +3018,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 201.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
+			(at 201.93 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,6 +3116,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "PCM1808PWR"
 			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3256,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 114.3 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3269,6 +3335,17 @@
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
 			(at 114.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "UWT1H100MCL1GB"
+			(at 114.3 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,7 +3504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040222R0FKED/1177815"
 			(at 186.69 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3439,6 +3516,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CRCW040222R0FKED"
 			(at 186.69 91.44 0)
 			(hide yes)
 			(show_name no)

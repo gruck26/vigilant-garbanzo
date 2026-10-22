@@ -2747,7 +2747,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 260.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2839,6 +2839,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 260.35 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2908,7 +2919,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3000,6 +3011,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 168.91 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3069,7 +3091,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 146.05 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3161,6 +3183,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 146.05 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3230,7 +3263,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3322,6 +3355,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 168.91 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3495,6 +3539,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 99.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "4815df52-f98b-4ed4-b909-b528a843b4d2")
 		)
@@ -3580,6 +3635,17 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
 			(at 96.52 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -3751,7 +3817,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 241.3 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3843,6 +3909,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 241.3 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4016,6 +4093,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 147.32 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14335086-17ec-433d-90f9-e257de0cecb6")
 		)
@@ -4103,6 +4191,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 242.57 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38f67bb5-7994-4940-a54c-3d9f3a16b7c2")
 		)
@@ -4175,7 +4274,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A2/28772215"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4269,6 +4368,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Part_Number" "SSK02-FPH-254-A2"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c78d9dbd-2272-4670-b4c2-08e1bbe7d043")
 		)
@@ -4336,7 +4446,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A3/28772125"
 			(at 78.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4368,6 +4478,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A3"
+			(at 78.74 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4439,7 +4560,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A3/28772125"
 			(at 78.74 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4471,6 +4592,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A3"
+			(at 78.74 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4552,6 +4684,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 170.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
 			(at 170.18 127 0)
 			(hide yes)
 			(show_name no)
@@ -4714,7 +4857,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A3/28772125"
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4746,6 +4889,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A3"
+			(at 78.74 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4837,6 +4991,17 @@
 				)
 			)
 		)
+		(property "Part_Number" ""
+			(at 99.06 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "4815df52-f98b-4ed4-b909-b528a843b4d4")
 		)
@@ -4913,7 +5078,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SSK02-FPH-254-A3/28772125"
 			(at 78.74 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4945,6 +5110,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Part_Number" "SSK02-FPH-254-A3"
+			(at 78.74 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5026,6 +5202,17 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 99.06 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
 			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5375,6 +5562,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 170.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
 			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)

@@ -2417,6 +2417,17 @@
 				)
 			)
 		)
+		(property "Part_Number" "1N5819HW-7-F"
+			(at 137.16 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "581cce85-93c0-44ed-97d4-b844b5841a2b")
 		)
@@ -2481,7 +2492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040222R0FKED/1177815"
 			(at 170.18 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2494,6 +2505,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 170.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CRCW040222R0FKED"
+			(at 170.18 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,7 +2746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040222R0FKED/1177815"
 			(at 170.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2737,6 +2759,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 170.18 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CRCW040222R0FKED"
+			(at 170.18 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2803,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040222R0FKED/1177815"
 			(at 170.18 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2816,6 +2849,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 170.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" "CRCW040222R0FKED"
+			(at 170.18 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2898,6 +2942,17 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 132.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part_Number" ""
+			(at 132.08 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
