@@ -2029,12 +2029,6 @@
 		(uuid "44fdacf5-ea11-4d6c-8e8a-fbd611452632")
 	)
 	(junction
-		(at 101.6 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45b48db9-ccb6-4d45-9c8a-03f2c63d775f")
-	)
-	(junction
 		(at 120.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2211,16 +2205,6 @@
 			(type default)
 		)
 		(uuid "21aa7f1e-c71c-44ab-b27a-048f51933cf1")
-	)
-	(wire
-		(pts
-			(xy 101.6 60.96) (xy 101.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "266eab4d-5e4d-4f11-a8c3-b7f6a367b2a7")
 	)
 	(wire
 		(pts
@@ -5445,84 +5429,6 @@
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 66.04 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f328444b-abff-49d1-af1c-f20e5be4a863")
-		(property "Reference" "TP6"
-			(at 103.124 74.676 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 104.648 72.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
-			(at 96.52 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5631faf5-fdd5-4f8b-aac2-bc687aa59f88")
-		)
-		(instances
-			(project "KiCad"
-				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
-					(reference "TP6")
 					(unit 1)
 				)
 			)

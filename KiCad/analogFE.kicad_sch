@@ -1851,6 +1851,12 @@
 		(uuid "0e10b88f-da46-4f68-b107-71f6ccad6607")
 	)
 	(junction
+		(at 134.62 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1401eba6-ec39-4cce-9472-75818ab117af")
+	)
+	(junction
 		(at 142.24 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1867,6 +1873,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4acd31a6-ba5d-4712-9ce9-38de4b3293af")
+	)
+	(junction
+		(at 134.62 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ef9e34-d981-4f40-bd9d-9c20b7cecd64")
 	)
 	(junction
 		(at 251.46 54.61)
@@ -1923,12 +1935,6 @@
 		(uuid "90dbc704-b053-4497-a45a-3f29fb916377")
 	)
 	(junction
-		(at 134.62 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "932bdd23-8f5f-4fd7-9ac8-cbdf5b7341e1")
-	)
-	(junction
 		(at 140.97 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1951,12 +1957,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4c20826-95fd-461a-9c2f-641ffac7a973")
-	)
-	(junction
-		(at 134.62 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4f6c662-0153-4c5e-bda0-34e5265d0ccc")
 	)
 	(junction
 		(at 251.46 31.75)
@@ -2017,6 +2017,16 @@
 			(type default)
 		)
 		(uuid "1295d58a-2c12-4184-a538-6d805d2027fd")
+	)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150ac694-9007-4ac3-a274-2a7640f8759e")
 	)
 	(wire
 		(pts
@@ -2090,16 +2100,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 68.58) (xy 140.97 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c1ad13-0cf0-454c-82ae-f355b2daec2f")
-	)
-	(wire
-		(pts
 			(xy 251.46 34.29) (xy 251.46 31.75)
 		)
 		(stroke
@@ -2147,6 +2147,16 @@
 			(type default)
 		)
 		(uuid "32ed0520-23e2-441c-b12d-3a03d731218d")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a89a29-19ee-4649-b848-849fa850516d")
 	)
 	(wire
 		(pts
@@ -2300,16 +2310,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 57.15) (xy 134.62 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7037bab0-921d-497d-96a2-539b0c643e7c")
-	)
-	(wire
-		(pts
 			(xy 78.74 76.2) (xy 78.74 74.93)
 		)
 		(stroke
@@ -2447,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "9492ba59-8216-40e2-8c35-2be47ffc4452")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969d68e6-2ec0-4e52-8e60-6488b9bc31a9")
 	)
 	(wire
 		(pts
@@ -2740,16 +2750,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 67.31) (xy 134.62 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0741293-50dd-4def-a2f2-0178bbc78ef3")
-	)
-	(wire
-		(pts
 			(xy 168.91 55.88) (xy 168.91 66.04)
 		)
 		(stroke
@@ -2757,6 +2757,16 @@
 			(type default)
 		)
 		(uuid "e083360a-2655-49c3-bf2d-3ffa832b8e72")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1baa300-b46e-4b7e-a8d9-3d6efbac978c")
 	)
 	(wire
 		(pts
@@ -2807,16 +2817,6 @@
 			(type default)
 		)
 		(uuid "eece57e1-ba4b-425c-9d8d-fb6c6dee94ab")
-	)
-	(wire
-		(pts
-			(xy 134.62 68.58) (xy 134.62 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49f2d67-8264-42fb-90bb-cff5723483b4")
 	)
 	(wire
 		(pts
@@ -5050,7 +5050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 134.62 74.93 180)
+		(at 134.62 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5058,10 +5058,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86105abc-6225-42d4-951b-a12f1a0657f4")
 		(property "Reference" "R10"
-			(at 137.16 73.6599 0)
+			(at 128.27 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5072,7 +5071,7 @@
 			)
 		)
 		(property "Value" "620k"
-			(at 137.16 76.1999 0)
+			(at 128.524 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5083,7 +5082,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 133.604 74.676 90)
+			(at 133.604 61.976 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +5093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 74.93 0)
+			(at 134.62 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5105,7 +5104,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 134.62 74.93 0)
+			(at 134.62 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +6623,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 134.62 63.5 180)
+		(at 134.62 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6634,7 +6633,7 @@
 		(dnp no)
 		(uuid "cb6f32f2-5d22-4548-a400-44f6f2fb1d8b")
 		(property "Reference" "R9"
-			(at 126.746 62.23 0)
+			(at 126.746 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6645,7 +6644,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 126.746 64.77 0)
+			(at 126.746 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6656,7 +6655,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 133.604 63.246 90)
+			(at 133.604 74.676 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +6666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 63.5 0)
+			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6678,7 +6677,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 134.62 63.5 0)
+			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6792,91 +6791,6 @@
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd9bd2cf-7a9d-401d-b6c7-1751b8f2efd9")
-		(property "Reference" "TP4"
-			(at 109.22 96.0119 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.22 98.5519 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
-			(at 101.6 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77270851-9ba2-4420-aa87-faee837f65ab")
-		)
-		(instances
-			(project "rpi_and_peripherals"
-				(path "/149bebb8-d22c-435a-adf0-1313d3be5660/482e9c29-4e2a-4660-9574-25cec0041a8a"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-			(project "KiCad"
-				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/482e9c29-4e2a-4660-9574-25cec0041a8a"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
