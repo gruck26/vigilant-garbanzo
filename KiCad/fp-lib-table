@@ -10,4 +10,6 @@
 	(lib (name "1N45819") (type "KiCad") (uri "${KIPRJMOD}/libraries/1n5819/footprints.pretty") (options "") (descr ""))
 	(lib (name "lin_reg33") (type "KiCad") (uri "${KIPRJMOD}/libraries/ul_MCP1703T-3302E-DB/KiCADv6/linreg_3302.pretty") (options "") (descr ""))
 	(lib (name "lin_reg50") (type "KiCad") (uri "${KIPRJMOD}/libraries/ul_MCP1703T-5002E-DB/KiCADv6/linreg_500.pretty") (options "") (descr ""))
+	(lib (name "dr_li") (type "KiCad") (uri "${KIPRJMOD}/libraries/dr_li.pretty") (options "") (descr ""))
+	(lib (name "lt1054_16soic") (type "KiCad") (uri "${KIPRJMOD}/libraries/lt1054/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

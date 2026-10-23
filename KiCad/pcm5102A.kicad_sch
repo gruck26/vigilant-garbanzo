@@ -2023,12 +2023,6 @@
 		(uuid "3e996ed2-00de-4f54-8faa-5afddb5c8a7d")
 	)
 	(junction
-		(at 168.91 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44fdacf5-ea11-4d6c-8e8a-fbd611452632")
-	)
-	(junction
 		(at 120.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2059,7 +2053,7 @@
 		(uuid "b51b24f4-edce-47a7-8a71-b1fb8089857a")
 	)
 	(junction
-		(at 168.91 91.44)
+		(at 170.18 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b70e75b6-82ed-4972-a22f-f937445de830")
@@ -2071,7 +2065,7 @@
 		(uuid "ba5e53e8-fae4-48cc-8212-c735e78814f2")
 	)
 	(junction
-		(at 168.91 83.82)
+		(at 170.18 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ef1edd-2c6a-4a45-bbc1-c17d63cf8709")
@@ -2178,7 +2172,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 168.91 91.44)
+			(xy 170.18 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7b094d-efe5-42e3-b1a1-d014da453b78")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2255,6 +2259,16 @@
 			(type default)
 		)
 		(uuid "3567f584-6642-42c5-89dd-70486d0d88d1")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf8fad8-322b-4f58-a448-80a2d7895cd7")
 	)
 	(wire
 		(pts
@@ -2358,6 +2372,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cea24f-3af4-486f-a5a3-c7454b21ef1d")
+	)
+	(wire
+		(pts
 			(xy 170.18 66.04) (xy 168.91 66.04)
 		)
 		(stroke
@@ -2368,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 168.91 83.82)
+			(xy 170.18 78.74) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2418,16 +2442,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 168.91 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873db6c5-afa3-4b37-b9b2-c89991aeb723")
-	)
-	(wire
-		(pts
 			(xy 187.96 68.58) (xy 191.77 68.58)
 		)
 		(stroke
@@ -2445,6 +2459,16 @@
 			(type default)
 		)
 		(uuid "8815296d-0249-48ae-8376-bb411d6493f0")
+	)
+	(wire
+		(pts
+			(xy 170.18 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a9e925-7ed4-4605-a643-8e4194b8cf7e")
 	)
 	(wire
 		(pts
@@ -2538,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 168.91 101.6)
+			(xy 170.18 91.44) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2565,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "ad26c700-e21a-4ed7-acf4-bac1a9c43849")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0adc5eb-f1b2-497a-8190-d1789ef1435e")
 	)
 	(wire
 		(pts
@@ -3311,7 +3345,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 182.118 84.074 0)
+			(at 183.388 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3999,6 +4033,85 @@
 			(project "KiCad"
 				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 175.26 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f0993c5-6fd5-40a4-b9ca-94bef556e542")
+		(property "Reference" "#PWR08"
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 179.07 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "114d8f8d-ea4d-4c30-b7e1-c17070d86687")
+		)
+		(instances
+			(project "KiCad"
+				(path "/24850b4e-1ce6-41a1-b1f6-c45749a7c3af/6e6f54ae-c134-44a9-b312-648594db47df"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

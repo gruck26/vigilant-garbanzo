@@ -8,4 +8,5 @@
 	(lib (name "lin_reg_330") (type "KiCad") (uri "C:/Users/gbrucker/Desktop/Fall 26/ECE 494/KiCad/libraries/ul_MCP1703T-3302E-DB/KiCADv6") (options "") (descr ""))
 	(lib (name "op_amp") (type "") (uri "${KIPRJMOD}/op_amp.pretty") (options "") (descr ""))
 	(lib (name "lin_reg_5002") (type "KiCad") (uri "C:/Users/gbrucker/Desktop/Fall 26/ECE 494/KiCad/libraries/ul_MCP1703T-5002E-DB/KiCADv6") (options "") (descr ""))
+	(lib (name "lt1054_soic16") (type "KiCad") (uri "${KIPRJMOD}/libraries/lt1054/KiCADv6/2026-10-22_23-51-36.kicad_sym") (options "") (descr ""))
 )
